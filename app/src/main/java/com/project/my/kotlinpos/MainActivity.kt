@@ -99,7 +99,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         // Handle navigation view item clicks here.
         when (item.itemId) {
             R.id.nav_camera -> {
-                supportFragmentManager.beginTransaction().add(R.id.frame,LoginFragment()).commit()
+//                supportFragmentManager.beginTransaction().add(R.id.frame,LoginFragment()).commit()
             }
             R.id.nav_gallery -> {
                 Toast.makeText(applicationContext,"Gallery",Toast.LENGTH_SHORT).show()
